@@ -1,0 +1,20 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "description": "A simple Express server to serve static files",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "static",
+    "server",
+    "express",
+    "nodejs"
+  ],
+  "author": "Justin Zelinsky",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
