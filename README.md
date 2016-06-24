@@ -1,6 +1,6 @@
-# Static Server
+# Bootstrap Repository
 
-A simple [Express](http://expressjs.com) server to host static files
+A bunch of files to boiler plate stuff to facilitate new projects.
 
 ## Setup & Running
 
@@ -8,6 +8,6 @@ A simple [Express](http://expressjs.com) server to host static files
 
     npm install
 
-### Run Server
+### Run local server
 
     npm start
