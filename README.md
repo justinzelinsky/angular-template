@@ -6,8 +6,18 @@ A bunch of files to boiler plate stuff to facilitate new projects.
 
 ### Install node modules with
 
-    npm install
+```
+npm install
+```
 
 ### Run local server
 
-    npm start
+```
+npm start
+```
+
+### Watch files
+
+```
+gulp watch
+```
