@@ -1,31 +1,33 @@
 {
-  "name": "bootstrap-boilerplate",
-  "version": "1.0.0",
-  "description": "A basic project structure",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "static",
-    "server",
-    "angularjs",
-    "nodejs",
-    "bootstrap"
-  ],
-  "author": "Justin Zelinsky",
-  "license": "MIT",
-  "devDependencies": {
-    "bower": "^1.7.9",
-    "del": "^2.2.0",
-    "gulp": "^3.9.1",
-    "gulp-angular-templatecache": "^2.0.0",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-connect": "^5.0.0",
-    "gulp-scss": "^1.4.0",
-    "gulp-uglify": "^2.0.0",
-    "main-bower-files": "^2.13.1",
-    "run-sequence": "^1.2.2"
-  }
+    "name": "bootstrap-boilerplate",
+    "version": "1.0.0",
+    "description": "A basic project structure",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "bower install"
+
+    },
+    "keywords": [
+        "static",
+        "server",
+        "angularjs",
+        "nodejs",
+        "bootstrap"
+    ],
+    "author": "Justin Zelinsky",
+    "license": "MIT",
+    "devDependencies": {
+        "bower": "^1.7.9",
+        "del": "^2.2.0",
+        "gulp": "^3.9.1",
+        "gulp-angular-templatecache": "^2.0.0",
+        "gulp-autoprefixer": "^3.1.1",
+        "gulp-concat": "^2.6.0",
+        "gulp-connect": "^5.0.0",
+        "gulp-scss": "^1.4.0",
+        "gulp-uglify": "^2.0.0",
+        "main-bower-files": "^2.13.1",
+        "run-sequence": "^1.2.2"
+    }
 }
