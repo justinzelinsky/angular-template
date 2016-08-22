@@ -1,2 +1,6 @@
 node_modules
+bower_components
 .*cache
+public/*.js
+public/*.css
+app/templates/templates.js
