@@ -21,3 +21,8 @@ gulp connect
 ```
 gulp watch
 ```
+
+### TODO
+
+* Incorporate webpack somehow
+* Update to remove all traces of less once bootstrap updates
