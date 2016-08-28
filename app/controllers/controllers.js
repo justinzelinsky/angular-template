@@ -1,3 +1,3 @@
-angular.module(appName).controller('HelloWorldCtrl', function($scope) {
-  $scope.message = 'Hello, World';
+angular.module(appName).controller('HelloWorldCtrl', function($scope, HelloWorldService) {
+  $scope.message = HelloWorldService.helloWorld();
 });
