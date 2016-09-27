@@ -1,4 +1,4 @@
-# Angular Bootstrap Repo
+# Angular Template
 
 A bunch of files to boiler plate stuff to facilitate new projects.
 
